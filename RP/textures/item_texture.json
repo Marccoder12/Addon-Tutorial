@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "Addon_Tutorial",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "lighter": {
-      "textures": "textures/items/lighter"
-    }
-  }
-}
