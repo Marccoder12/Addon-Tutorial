@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Addon Tutorial Behaviour Pack",
+    "description": "Learn how to make addons for Minecraft Bedrock",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "580e2c32-d699-4fdc-a723-cd90f0a3a41e",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "af711860-0abc-408e-a255-ed751a87145a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "edea8ef3-0a74-4988-9cde-9a97e5d13e63",
+      "version": [1, 0, 0]
+    }
+  ]
+}

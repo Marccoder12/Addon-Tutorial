@@ -1,0 +1,33 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fpat:battery_model"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "CIC",
+            "CRC",
+            "CIC"
+        ],
+        "key": {
+            "C":{
+                "item": "minecraft:black_concrete"
+            },
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "R":{
+                "item": "minecraft:redstone"
+            }
+        },
+        "unlock":[
+            {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        "result":{
+            "item": "fpat:battery_model"
+        }
+    }
+}

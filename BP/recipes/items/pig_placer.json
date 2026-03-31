@@ -1,0 +1,16 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "fpat:pig_placer"
+        },
+        "tags": [
+            "blast_furnace",
+            "furnace",
+            "smoker"
+        ],
+        "unlock":[],
+        "input": "minecraft:pig_spawn_egg",
+        "output": "fpat:pig_placer"
+    }
+}

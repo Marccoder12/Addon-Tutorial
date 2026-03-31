@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fpat:burger",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+
+    "components": {
+      "minecraft:use_modifiers": { "use_duration": 2 },
+      "minecraft:icon": "burger",
+      "minecraft:food": {
+        "nutrition": 12
+      },
+
+      "minecraft:compostable": {
+        "composting_chance": 100
+      }
+    }
+  }
+}
