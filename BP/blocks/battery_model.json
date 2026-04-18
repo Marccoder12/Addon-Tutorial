@@ -8,7 +8,7 @@
       }
     },
     "components": {
-      
+      loo
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
         "size": [16, 16, 16]

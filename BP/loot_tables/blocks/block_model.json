@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "name": "minecraft:black_concrete",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count":6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "name": "minecraft:iron_ingot",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count":2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "name": "minecraft:redstone",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count":1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
