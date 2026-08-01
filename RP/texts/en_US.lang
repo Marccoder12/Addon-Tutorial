@@ -1,0 +1,9 @@
+
+## items
+item.fpat:lighter=Lighter
+item.fpat:burger=Burger
+item.fpat:gas=Gas
+
+##Blocks
+tile.fpat:battery.name=Battery
+tile.fpat:battery_model.name=Battery Model

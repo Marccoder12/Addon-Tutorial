@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "Addon_Tutorial",
+  "texture_name": "atlas.terrain",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "texture_data": {
+    "battery_top": {
+      "textures": "textures/blocks/battery_top"
+    },
+    "battery_side": {
+      "textures": "textures/blocks/battery_side"
+    },
+    "battery": {
+      "textures": "textures/blocks/battery"
+    }
+  }
+}

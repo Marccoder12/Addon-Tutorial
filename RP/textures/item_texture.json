@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "Addon_Tutorial",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "lighter": {
+      "textures": "textures/items/lighter"
+    },
+    "burger": {
+      "textures": "textures/items/burger"
+    },
+    "gas": {
+      "textures": "textures/items/fuel"
+    },
+    "pig_placer": {
+      "textures": "textures/items/pig_placer"
+    }
+  }
+}
