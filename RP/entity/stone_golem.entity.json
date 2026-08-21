@@ -12,6 +12,12 @@
       "textures": {
         "default": "textures/entity/stone_golem"
       },
+      "animations": {
+        "wave": "animation.stone_golem.wave"
+      },
+      "scripts": {
+        "animate": ["wave"]
+      },
       "render_controllers": ["controller.render.stone_golem"]
     }
   }

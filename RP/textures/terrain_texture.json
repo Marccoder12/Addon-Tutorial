@@ -12,6 +12,9 @@
     },
     "battery": {
       "textures": "textures/blocks/battery"
+    },
+    "oak_chair": {
+      "textures": "textures/blocks/oak_pallete"
     }
   }
 }

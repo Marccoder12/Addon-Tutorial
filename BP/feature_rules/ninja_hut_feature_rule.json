@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "fpat:ninja_hut_feature_rule",
+      "places_feature": "fpat:ninja_hut_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "plains"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 5,
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz) - 7",
+      "z": 0
+    }
+  }
+}

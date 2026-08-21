@@ -2,12 +2,10 @@
   "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.stone_golem": {
-      "materials": [
-        
-        { "*": "material.default" }
-      ],
+      "materials": [{ "*": "material.default" }],
       "geometry": "geometry.default",
-      "textures": [ "texture.default" ]
+
+      "textures": ["texture.default"]
     }
   }
 }

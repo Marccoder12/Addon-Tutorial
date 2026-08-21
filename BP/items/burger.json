@@ -7,7 +7,6 @@
         "category": "items"
       }
     },
-
     "components": {
       "minecraft:use_modifiers": { "use_duration": 2 },
       "minecraft:icon": "burger",
@@ -17,6 +16,10 @@
 
       "minecraft:compostable": {
         "composting_chance": 100
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1.25,
+        "projectile_entity": "arrow"
       }
     }
   }

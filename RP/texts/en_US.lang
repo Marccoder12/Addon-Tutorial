@@ -7,3 +7,8 @@ item.fpat:gas=Gas
 ##Blocks
 tile.fpat:battery.name=Battery
 tile.fpat:battery_model.name=Battery Model
+tile.fpat:oak_chair.name=Oak Chair
+
+
+## actionbar hints
+action.hint.exit.fpat:sittable=crouch or jump to stand up

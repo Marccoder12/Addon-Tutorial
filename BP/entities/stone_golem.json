@@ -6,8 +6,19 @@
       "is_summonable": true,
       "is_experimental": false
     },
-    "component_groups":{},
+    "component_groups": {},
+
     "components": {
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:leashable": {
+        "can_be_stolen": false,
+        "hard_distance": 6,
+        "max_distance": 10,
+        "soft_distance": 4
+      }
     },
     "events": {}
   }

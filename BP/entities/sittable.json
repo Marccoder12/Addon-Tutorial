@@ -1,0 +1,47 @@
+{
+    "format_version":"1.21.110",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "fpat:sittable",
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "instant_despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:rideable": {
+                "crouching_skip_interact": true,
+                "pull_in_entities": false,
+                "rider_can_interact": false,
+                "seat_count": 1
+            },
+            "minecraft:collision_box": {
+                "height": 1,
+                "width": 1
+            },
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "event": "instant_despawn",
+                        "filters": {
+                            "test": "rider_count",
+                            "value": 0
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "instant_despawn":{
+                "add": {
+                    "component_groups": [
+                        "instant_despawn"
+                    ]
+                }
+            }
+        }
+    }
+}
